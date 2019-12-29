@@ -1,0 +1,138 @@
+html, body{
+  background-color:rgba(0,32,2,1);
+  height: 100%;
+  width: 100%
+}
+
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+  
+  p{
+    padding-top: 10px;
+    font-size: 15px
+  }
+
+  .prayerContainer{
+      display: flex;
+      width: 50%;
+      /* background:rgba(0,32,2,1); */
+      height: 100%;
+      flex-direction: column;
+      /* align-content: center; */
+      align-items: center;
+  }
+
+  .header{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+
+td{
+  font-weight: 600;
+  font-size: 65px;
+  color: white;
+  font-family: sans-serif;
+  padding: 0 0;
+
+}
+
+th{
+  font-size: 65px;
+  color: white;
+  font-family: sans-serif;
+  padding: 0 0;
+
+}
+
+.prayerChangeContainer{
+  display: flex;
+  width: 40%;
+  height: 100%;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  padding-top: -20px;
+  width: auto
+}
+
+.changedColor{
+  color: rgba(121,10,10,1)
+}
+
+.changedHeader{
+  color: rgba(121,10,10,1);
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: baseline;
+  /* padding-bottom: 20px; */
+  font-family: sans-serif
+}
+
+.alpha{
+  background-image: url("mosqueimage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(90deg);
+  height: 1000px;
+  width: auto
+}
+
+
+.clock {
+  color: red;
+  font-size: 110px;
+  padding-top: 0px;
+  text-align: center;
+  border: thin solid red;
+  border-radius: 5px;
+  width: 450px;
+  height: 150px;
+}
+
+.table {
+  /* background-color: red; */
+  height: 700px;
+  min-width: 135%;
+  padding: 0 0;
+}
+
+.jumaa {
+  color: rgba(150, 42, 35,1);
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.hadith{
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding: 0 0;
+}
+
+.table-row{
+  margin: 0;
+}
+
+.table td, .table th {
+  padding: 0;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
